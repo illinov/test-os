@@ -1,6 +1,7 @@
 #![no_std] // no enlazar con la biblioteca estandar de Rust
 #![no_main] // deshabilitar todos los entry points estandar
 use core::panic::PanicInfo;
+extern crate bootloader;
 
 static HELLO: &[u8] = b"Hola papum";
 
